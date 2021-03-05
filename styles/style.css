@@ -1,0 +1,49 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.stage {
+    text-align: center;
+}
+
+.square {
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    content: "\2620";
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    content: "\1F5E1";
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
